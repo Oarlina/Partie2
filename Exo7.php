@@ -6,12 +6,12 @@ $elements= ["Choix 1", "Choix 2", "Choix 3"];
 
 function alimenterListeDeroulante ($elements)
 {
-    $result = "";
+    $result = "<select>";
     for ($i=0;$i<count($elements);$i++)
     {
         $result .= "<input type='checkbox'>$elements[$i]</input> <br>";
     }
-    $result .= "";
+    $result .= "</select>";
     return $result;
 }
 

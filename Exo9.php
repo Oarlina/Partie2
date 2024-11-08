@@ -6,12 +6,12 @@ $elements= ["Masculin", "Féminin", "Autre"];
 
 function afficherRadio($elements)
 {
-    $result = "";
+    $result = "<select>";
     for ($i=0;$i<count($elements);$i++)
     {
         $result .= "<input type='radio'>$elements[$i]</input> <br>";
     }
-    $result .= "";
+    $result .= "</select>";
     return $result;
 }
 
