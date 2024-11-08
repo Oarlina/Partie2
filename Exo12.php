@@ -8,5 +8,5 @@ $tableauValeurs=[true,
                 25.369,
                 ["valeur1","valeur2"]];
 
-
+var_dump($tableauValeurs);
 ?>
