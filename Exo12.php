@@ -8,5 +8,11 @@ $tableauValeurs=[true,
                 25.369,
                 ["valeur1","valeur2"]];
 
-var_dump($tableauValeurs);
+$i=0;
+while ($i < count($tableauValeurs))
+{
+    echo var_dump($tableauValeurs[$i])."<br>"; // afficher d'une façon jolie un tableau
+    $i++;
+}
+
 ?>
