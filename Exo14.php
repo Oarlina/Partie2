@@ -11,4 +11,5 @@ if (filter_var($email_b, FILTER_VALIDATE_EMAIL)) {
 } else {
     echo "L'adresse email '$email_b' est considérée comme invalide.<br>";
 }
+
 ?>
