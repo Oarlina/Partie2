@@ -2,7 +2,6 @@
 
 <?php
 
-
 $tableauValeurs=[true,
                 "texte",
                 10,
